@@ -1,3 +1,4 @@
+#Choose AWS Region
 variable "aws_region" {
   type    = string
   default = "eu-central-1"
@@ -42,7 +43,7 @@ variable "variables_sub_cidr" {
 
 
 variable "variables_sub_az" {
-  description = "Availability Zone used Variables Subnet"
+  description = "AZ used Variables Subnet"
   type        = string
   default     = "eu-west-1a"
 }
